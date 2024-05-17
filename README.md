@@ -34,7 +34,7 @@ dotnet restore
 
 6. Set up PostgreSQL database and configure the connection string in `appsettings.json`:
 
-```Json
+Fill your connection string in Program.cs.
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=localhost;Port=5432;Database=your_database;User Id=your_username;Password=your_password;"
@@ -42,6 +42,7 @@ dotnet restore
 }
 
 6. Can use the Postgres_Query_DB.sql for setting up DB.
+   Added my images for products in Firebase which I done in that script.
 
 7. Start the backend server:
 Hit F5 to start the server
