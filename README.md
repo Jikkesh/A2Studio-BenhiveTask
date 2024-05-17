@@ -7,8 +7,8 @@ A2Studio is an interior designing shop where you can unleash your creativity to 
 ## <span style="color:green">Installation</span>
 
 Technologies and Frameworks Used:
-- React
-- ASP.NET Core Web API
+- React (18)
+- ASP.NET Core Web API (.NET 8)
 - PostgreSQL
 - Firebase (Cloud Image storing)
 - Tailwind CSS 
@@ -21,13 +21,18 @@ git clone <repository-url>
 2. Navigate to the project directory:
 cd A2Studio
 
+cd client
+
 3. Install dependencies for the frontend:
 npm install
+
+Open Server on Visual Studio
 
 4. Install NuGet packages for the backend:
 dotnet restore
 
-5. Set up PostgreSQL database and configure the connection string in `appsettings.json`:
+
+6. Set up PostgreSQL database and configure the connection string in `appsettings.json`:
 
 ```Json
 {
@@ -36,14 +41,14 @@ dotnet restore
   }
 }
 
-6. Can use the Postgres_Query_DB.sql for setting up.
+6. Can use the Postgres_Query_DB.sql for setting up DB.
 
 7. Start the backend server:
-
+Hit F5 to start the server
+or
 dotnet run
 
 8. Start the frontend development server:
-
 npm start
 
 
