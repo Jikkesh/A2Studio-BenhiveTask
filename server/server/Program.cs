@@ -20,15 +20,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-builder.Services.AddScoped<IAuthServices>(provider =>
-{
- 
-    var configuration = provider.GetRequiredService<IConfiguration>();
-    var jwtSecret = configuration["JwtSettings:Secret"];
-    var jwtExpirationInMinutes = configuration.GetValue<int>("JwtSettings:ExpirationInMinutes");
-
-    return new AuthServices(jwtSecret, jwtExpirationInMinutes);
-});
+builder.Services.AddScoped<IAuthServices , AuthServices>();
 builder.Services.AddScoped<IAuthRepository, AuthRepository>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
