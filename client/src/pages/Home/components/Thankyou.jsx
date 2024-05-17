@@ -1,17 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
 
 const Thankyou = () => {
 
-  const navigate = useNavigate();
 
-  const token = localStorage.getItem("USER_TOKEN");
-
-  if (token == null) {
-    alert("Dear User, Login to book your call")
-    navigate("/login");
-  }
 
 
   return (

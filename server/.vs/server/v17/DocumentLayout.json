@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jikke\\OneDrive\\Desktop\\Projects\\A2Studio\\server\\",
+  "WorkspaceRootPath": "C:\\Users\\jikke\\A2Studio-BenhiveTask\\server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{633C913F-15D4-487D-B544-8B7768A15E5B}|server\\server.csproj|c:\\users\\jikke\\onedrive\\desktop\\projects\\a2studio\\server\\server\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{633C913F-15D4-487D-B544-8B7768A15E5B}|server\\server.csproj|c:\\users\\jikke\\a2studio-benhivetask\\server\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{633C913F-15D4-487D-B544-8B7768A15E5B}|server\\server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{633C913F-15D4-487D-B544-8B7768A15E5B}|server\\server.csproj|c:\\users\\jikke\\a2studio-benhivetask\\server\\server\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{633C913F-15D4-487D-B544-8B7768A15E5B}|server\\server.csproj|solutionrelative:server\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,12 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jikke\\A2Studio-BenhiveTask\\server\\server\\Program.cs",
+              "RelativeDocumentMoniker": "server\\Program.cs",
+              "ToolTip": "C:\\Users\\jikke\\A2Studio-BenhiveTask\\server\\server\\Program.cs",
+              "RelativeToolTip": "server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T08:34:27.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AuthServices.cs",
-              "DocumentMoniker": "C:\\Users\\jikke\\OneDrive\\Desktop\\Projects\\A2Studio\\server\\server\\Services\\AuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\jikke\\A2Studio-BenhiveTask\\server\\server\\Services\\AuthServices.cs",
               "RelativeDocumentMoniker": "server\\Services\\AuthServices.cs",
-              "ToolTip": "C:\\Users\\jikke\\OneDrive\\Desktop\\Projects\\A2Studio\\server\\server\\Services\\AuthServices.cs",
+              "ToolTip": "C:\\Users\\jikke\\A2Studio-BenhiveTask\\server\\server\\Services\\AuthServices.cs",
               "RelativeToolTip": "server\\Services\\AuthServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T21:37:37.571Z",
               "EditorCaption": ""

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jikke\\OneDrive\\Desktop\\Projects\\A2Studio\\server\\server\\server.csproj": {}
+    "C:\\Users\\jikke\\A2Studio-BenhiveTask\\server\\server\\server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jikke\\OneDrive\\Desktop\\Projects\\A2Studio\\server\\server\\server.csproj": {
+    "C:\\Users\\jikke\\A2Studio-BenhiveTask\\server\\server\\server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jikke\\OneDrive\\Desktop\\Projects\\A2Studio\\server\\server\\server.csproj",
+        "projectUniqueName": "C:\\Users\\jikke\\A2Studio-BenhiveTask\\server\\server\\server.csproj",
         "projectName": "server",
-        "projectPath": "C:\\Users\\jikke\\OneDrive\\Desktop\\Projects\\A2Studio\\server\\server\\server.csproj",
+        "projectPath": "C:\\Users\\jikke\\A2Studio-BenhiveTask\\server\\server\\server.csproj",
         "packagesPath": "C:\\Users\\jikke\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jikke\\OneDrive\\Desktop\\Projects\\A2Studio\\server\\server\\obj\\",
+        "outputPath": "C:\\Users\\jikke\\A2Studio-BenhiveTask\\server\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jikke\\AppData\\Roaming\\NuGet\\NuGet.Config",

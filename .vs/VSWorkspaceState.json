@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\server",
+    "\\server\\server",
+    "\\server\\server\\Services"
+  ],
+  "SelectedNode": "\\server\\server\\Services\\AuthServices.cs",
+  "PreviewInSolutionExplorer": false
+}

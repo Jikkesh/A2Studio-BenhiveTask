@@ -23,22 +23,22 @@ const Hero = () => {
     <div className="h-max my-10 w-full max-w-screen-xl z-10 relative">
       <Slider {...settings}>
         <div>
-          <img src={HeroImg1} alt="image" className="w-full  object-cover" style={{
+          <img src={HeroImg1} alt="" className="w-full  object-cover" style={{
             height : "540px"
           }}/>
         </div>
         <div>
-          <img src={HeroImg2} alt="image" className="w-full  object-cover" style={{
+          <img src={HeroImg2} alt="" className="w-full  object-cover" style={{
             height : "540px"
           }}/>
         </div>
         <div>
-          <img src={HeroImg3} alt="image" className="w-full  object-cover" style={{
+          <img src={HeroImg3} alt="" className="w-full  object-cover" style={{
             height : "540px"
           }}/>
         </div>
         <div>
-          <img src={HeroImg4} alt="image" className="w-full object-cover" style={{
+          <img src={HeroImg4} alt="" className="w-full object-cover" style={{
             height : "540px"
           }}/>
         </div>

@@ -4,7 +4,6 @@ import PopularInKitchen from "./components/PopularInKitchen.jsx";
 import PopularInBedroom from "./components/PopularInBedroom.jsx";
 import PopularInLivingroom from "./components/PopularInLivingroom.jsx";
 import PopularInBathroom from "./components/PopularInBathroom.jsx";
-import PopularInWardrobe from "./components/PopularInWardrobe.jsx";
 import { getProducts } from "../../API/services/Product_services.js";
 
 const Home = () => {
@@ -14,7 +13,6 @@ const Home = () => {
   const [kitchenProducts, setKitchenProducts] = useState(null);
   const [livingroomProducts, setLivingroomProducts] = useState(null);
   const [bathroomProducts, setBathroomProducts] = useState(null);
-  const [wardrobeProducts, setWardrobeProducts] = useState(null);
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -39,9 +37,6 @@ const Home = () => {
           (product) => product.category === "Bathroom"
         ));
 
-        setWardrobeProducts(products.filter(
-          (product) => product.category === "Wardrobe"
-        ));
 
         setIsData(true);
 

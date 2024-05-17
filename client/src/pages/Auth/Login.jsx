@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { login_service } from "../../API/services/Auth_services.js";
+import { useAuth } from "../../context/AuthContext.jsx";
 
 const Login = () => {
+  const { handleLogin } = useAuth();
   const navigate = useNavigate();
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [errors, setErrors] = useState({ email: "", password: "" });
@@ -44,7 +46,7 @@ const Login = () => {
       password: formData.password
     }
 
-    login_service(body , navigate);
+    login_service(body , handleLogin,navigate);
    
   };
 

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Item = (props) => {
-  const { id, name, category, image_url, new_price, old_price } = props.data;
+  const { id, name, image_url, new_price, old_price } = props.data;
 
   return (
     <div className="m-5 cursor-pointer">

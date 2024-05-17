@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useAuth } from "../context/AuthContext";
 
 const Navbar = () => {
-    const token = localStorage.getItem("USER_TOKEN");
 
-    const handleLogout = () => {
-        localStorage.removeItem("USER_TOKEN");
-        window.location.href = "/login";
-    };
+    const { isLogin, handleLogout } = useAuth();
+
+    const doLogout = () => {
+        handleLogout();
+    }
 
     return (
         <div className="flex items-center justify-around bg-white shadow-md top-0 left-0 w-full">
@@ -17,13 +18,11 @@ const Navbar = () => {
                 </h2>
             </div>
             <div className="flex items-center gap-5 space-x-4">
-                <div className="relative z-20">
-                    <Link to="/kitchen">
-                        <a href="#" className="hover:text-red-400">
-                            Modular Kitchen
-                        </a>
-                    </Link>
-                </div>
+
+                <a href="/kitchen" className="hover:text-red-400">
+                    Modular Kitchen
+                </a>
+
                 <a href="/bedroom" className="hover:text-red-400">
                     Bedroom
                 </a>
@@ -35,10 +34,10 @@ const Navbar = () => {
                 </a>
             </div>
             <div className="flex items-center mx-5">
-                {token ? (
+                {isLogin ? (
                     <button
                         className="font-Poppins cursor-pointer text-lg m-5 border text-black bg-white border-gray-400 rounded-3xl px-4 py-1 active:bg-slate-200"
-                        onClick={handleLogout}
+                        onClick={doLogout}
                     >
                         Logout
                     </button>
