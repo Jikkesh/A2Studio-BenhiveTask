@@ -37,7 +37,7 @@ dotnet restore
 or
 
 ADDED LINK:
-I alreaady setup PostgreSQL on Render which I added the link in appSettings.json. Can use that too.
+I already deployed and setup PostgreSQL on Render which I added the link in appSettings.json. Can use that too.
 
 FOR LOCAL:
 Fill your connection string in Program.cs.
@@ -47,8 +47,8 @@ Fill your connection string in Program.cs.
   }
 }
 
-6. Can use the Postgres_Query_DB.sql for setting up DB.
-   Added my images for products in Firebase which I done in that script.
+6. Can use the Postgres_Query_DB.sql for setting up local DB.
+   Added my images for products in Firebase.
 
 7. Start the backend server:
 Hit F5 to start the server
