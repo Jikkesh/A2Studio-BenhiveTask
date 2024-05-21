@@ -9,7 +9,7 @@ A2Studio is an interior designing shop where you can unleash your creativity to 
 Technologies and Frameworks Used:
 - React (18)
 - ASP.NET Core Web API (.NET 8)
-- PostgreSQL
+- PostgreSQL (Deployed on Render Cloud Storage)
 - Firebase (Cloud Image storing)
 - Tailwind CSS 
 
