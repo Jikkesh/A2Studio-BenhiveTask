@@ -34,6 +34,12 @@ dotnet restore
 
 6. Set up PostgreSQL database and configure the connection string in `appsettings.json`:
 
+or
+
+ADDED LINK:
+I alreaady setup PostgreSQL on Render which I added the link in appSettings.json. Can use that too.
+
+FOR LOCAL:
 Fill your connection string in Program.cs.
 {
   "ConnectionStrings": {
